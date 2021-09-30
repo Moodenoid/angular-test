@@ -1,0 +1,54 @@
+@font-face{
+  font-family: dos43;
+  src: url('//db.onlinewebfonts.com/t/47d5fd8c3738de46ef0b3fe3f68c289a.ttf');
+}
+
+body{
+  background-color: black;
+}
+
+p {
+  font-family: 'dos43';
+  font-size: 10px;
+  color:aliceblue;
+  display: inline;
+}
+h2 {
+  font-family: 'dos43';
+  font-size: 10px;
+  display: inline;
+
+  animation-duration: 0.9s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-name: h2;
+}
+@keyframes h2{
+  from {
+    visibility: inherit;
+    color:aliceblue;
+    -webkit-text-stroke-color: aliceblue;
+    -webkit-text-stroke-width: 2px;
+  }
+  49%{
+    color: aliceblue;
+    -webkit-text-stroke-color: aliceblue;
+    -webkit-text-stroke-width: 2px;
+  }
+  50%{
+
+    color:black;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+  }
+  99%{
+    color: black;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+  }
+  to{
+    color:aliceblue;
+    -webkit-text-stroke-color: aliceblue;
+  -webkit-text-stroke-width: 2px;
+  }
+}
